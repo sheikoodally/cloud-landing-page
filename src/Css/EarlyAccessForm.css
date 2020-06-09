@@ -1,0 +1,49 @@
+.earlyAccessFormContainer{
+    width:100%;
+    background-color: hsl(216, 53%, 9%);
+    margin: auto;
+}
+
+.earlyAccessFormCard{
+    max-width:900px;
+        width:90%;
+
+    top: -100px !important;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(217, 28%, 15%) !important;
+    color:white;
+    box-shadow: black 1px 1px 3px 1px;
+}
+.earlyAccessFormCard h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.earlyAccessFormCard p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+        padding-top:1em;
+        padding-bottom:1em;
+
+
+}
+
+.formRow{
+    width: 100%;
+}
+
+.formInput {
+    border-radius: 25em !important;
+}
+
+.formSubmitButton {
+        background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 20em !important;
+    border: none !important;
+    height:2.5em;
+    min-width: 200px;
+    width: 90%;
+    max-width:90% !important;
+    font-weight: bold !important;
+}

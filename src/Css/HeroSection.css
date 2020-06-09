@@ -1,0 +1,89 @@
+.heroSectionContainer {
+    padding-top: 3em;
+    width:100%;
+    text-align: center;
+    color:white;
+    margin: auto;
+}
+.heroSectionContainer img {
+    height: 100%;
+    width: 35%;
+}
+
+.heroText {
+    background-image: url("../images/bg-curvy-desktop.svg");
+        background-size: 100% 100%;
+    height:20em;
+    margin-top: 2em;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.heroText h2{
+  font-weight: 700;
+
+}
+
+.getStartedButton{
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 20em !important;
+    border: none !important;
+    width:25%;
+    height:3.3em;
+    font-weight: bold !important;
+    margin-top:3em;
+    max-width: 300px;
+}
+
+@media (max-width: 750px) {
+.heroSectionContainer img{
+  width: 70% !important;
+
+}
+
+    .getStartedButton{
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 20em !important;
+    border: none !important;
+    width:50%;
+    height:3.3em;
+    font-weight: bold !important;
+    margin-top:3em;
+}
+
+
+    .heroText p{
+        margin: auto;
+        width:80%;
+    }
+
+}
+
+
+@media (min-width: 750px) and (max-width: 1100px) {
+.heroSectionContainer img{
+  width: 70% !important;
+
+}
+
+    .getStartedButton{
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 20em !important;
+    border: none !important;
+    width:25%;
+    height:3.3em;
+    font-weight: bold !important;
+    margin-top:3em;
+}
+
+
+    .heroText p{
+        margin: auto;
+        width:80%;
+    }
+
+}
+
+
+

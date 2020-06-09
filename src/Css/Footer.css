@@ -1,0 +1,60 @@
+.footer {
+    color: white !important;
+    font-size: 14px !important;
+    background-color: hsl(216, 53%, 9%);
+    padding-bottom: 3em;
+}
+
+.footerContainer {
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 3em;
+    max-width: 100% !important;
+    width: 90% !important;
+    margin: auto !important;
+}
+
+
+.footer a{
+    color: white;
+    transition-duration: 0.2s;
+
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: lightslategrey;
+    transition-duration: 0.2s;
+}
+
+.leftFooterColumn {
+    display: inline-flex;
+}
+
+.footerLinkContainer {
+    display: inline-flex;
+}
+
+.footerIconLinks .svg-inline--fa {
+    height: 1.5em !important;
+    margin: 10px;
+    width: 1.5em !important;
+}
+
+.footerLogo {
+    margin-top: -10em;
+}
+
+.footerLogoText {
+    margin-top: -1.3em;
+}
+
+@media (max-width: 760px) {
+    .leftFooterColumn {
+        display: block;
+    }
+
+    .footerLinkContainer {
+        display: block;
+    }
+
+}

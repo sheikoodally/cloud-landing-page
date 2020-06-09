@@ -1,0 +1,28 @@
+.navigationBar {
+    background-color: transparent !important;
+    color: white !important;
+    width: 75%;
+    padding-top: 2em !important;
+    margin: auto;
+}
+
+.navigationBar a {
+    color: white !important;
+    transition-duration: 0.2s;
+
+}
+
+
+.navigationBar a:hover {
+    color: grey !important;
+    transition-duration: 0.2s;
+}
+
+@media (max-width: 750px) {
+    .navigationBar {
+
+        width: 100%;
+
+    }
+
+}
